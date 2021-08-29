@@ -12,6 +12,7 @@ div.container{
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
+    min-width:500px ;
 
 }
 
@@ -25,7 +26,7 @@ line-height: 30px;
     width: 22rem;
     padding: 5px;
     border-top-left-radius:10px ;
-    border-top-right-radius:10px ; */
+    border-top-right-radius:10px ;
 }
 .sticker2{
     background-color:#008080;
@@ -46,6 +47,7 @@ line-height: 30px;
     justify-content: flex-start;
     border-bottom-left-radius:10px ;
     border-bottom-right-radius:10px ;
+
 }
 .content{
     padding: 60px;
@@ -68,7 +70,7 @@ line-height: 30px;
 
 }
 
-@media(min-width:750px){
+@media(min-width:700px){
     div.container{
         height: 100vh;
         flex-direction: row;
